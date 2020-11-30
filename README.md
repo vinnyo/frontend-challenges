@@ -17,10 +17,7 @@ For these challenges you will be tested on your usage of different angular featu
 ### TODO App - Client Requirements
 
 * Components for display user's TODO lists.
-* Login component for setting the active user.
 * Handle storing data so that it persists across page refreshes.
-* Seperation of TODO lists between users.
-* Client users should only be allowed to edit their own lists.
 * Seperate the management of user's TODO lists from components.
 
 ### TODO App - Admin Requirements
@@ -32,10 +29,13 @@ For these challenges you will be tested on your usage of different angular featu
 
 ### Bonus
 
-1. Setup tailwindcss in your applications
+1. Login component for client app.
+1. Seperation of TODO lists between users in client app.
+1. Client users should only be allowed to edit their own lists.
 1. Setup re-ordering of TODO list items
 1. Setup lists to sync between Admin and Client UIs on the same machine.
 1. Add 2+ more features to the current requirements
+1. Setup tailwindcss in your applications
 1. Strongly typed interfaces
 1. Setup hosting for the applications on GitHub pages or [Vercel](https://vercel.com).
 
