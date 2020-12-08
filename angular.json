@@ -18,14 +18,14 @@
             "customWebpackConfig": {
               "path": "./webpack.config.js"
             },
-            "outputPath": "dist/apps/client",
+            "outputPath": "dist/apps/final",
             "index": "apps/client/src/index.html",
             "main": "apps/client/src/main.ts",
             "polyfills": "apps/client/src/polyfills.ts",
             "tsConfig": "apps/client/tsconfig.app.json",
             "aot": true,
             "assets": ["apps/client/src/favicon.ico", "apps/client/src/assets"],
-            "styles": ["apps/client/src/styles.scss"],
+            "styles": ["apps/client/src/styles.scss", "apps/client/src/tailwind.scss"],
             "scripts": []
           },
           "configurations": {
@@ -143,14 +143,14 @@
             "customWebpackConfig": {
               "path": "./webpack.config.js"
             },
-            "outputPath": "dist/apps/admin",
+            "outputPath": "dist/apps/final/admin",
             "index": "apps/admin/src/index.html",
             "main": "apps/admin/src/main.ts",
             "polyfills": "apps/admin/src/polyfills.ts",
             "tsConfig": "apps/admin/tsconfig.app.json",
             "aot": true,
             "assets": ["apps/admin/src/favicon.ico", "apps/admin/src/assets"],
-            "styles": ["apps/admin/src/styles.scss"],
+            "styles": ["apps/admin/src/styles.scss","apps/admin/src/tailwind.scss"],
             "scripts": []
           },
           "configurations": {
